@@ -31,7 +31,7 @@ jobs:
       - name: SEND
         run: |
           # Pesan teks polos tanpa format Markdown agar tidak rewel
-          $msg = "💎 mustafamom SESSION ACTIVE`n`n🚀 Host: ${{ steps.ts.outputs.IP }}`n👤 User: Pro_Admin`n🔑 Pass: ${{ steps.user_gen.outputs.PASS }}`n`n⚡"
+          $msg = "💎 oniraiux SESSION ACTIVE`n`n🚀 Host: ${{ steps.ts.outputs.IP }}`n👤 User: Pro_Admin`n🔑 Pass: ${{ steps.user_gen.outputs.PASS }}`n`n⚡"
           
           $body = @{ 
               chat_id = "${{ secrets.TELEGRAM_CHAT_ID }}"
